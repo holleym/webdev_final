@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #555555;
+    background-color: rgb(190, 190, 196);
+
+}
+
+li {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+/* a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 18px;
+} */
+
+/* Overriding default link visit color */
+a:visited {
+    color: white
+}
+
+.resumeListHeading {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.underline {text-decoration: underline;}
+.bold {font-weight: bold;}
+.justify {text-align: justify;}
+.homebg {
+    background-image: url('/assets/img/so-white.png');
+    background-position: top center;
+}
+
+/* Poor choice in naming these boxes here */
+.box1{
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+
+    border: 1px solid red;
+}
+
+.box2{
+    padding: 5px;
+}
+
+.box3{
+    margin: 50px;
+}
+
+.fontcoloroverride {
+    color: black;
+}
